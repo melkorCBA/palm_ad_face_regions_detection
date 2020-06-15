@@ -36,3 +36,24 @@ for i in range(a.shape[0]):
 # np.savetxt("foo.csv", newimage, delimiter=",")
 print(newimage)
 
+
+ # #draw contor borders
+        # # for cnt in contours:
+        # #head
+        # rect=cv2.minAreaRect(contours[2])
+        # box=cv2.boxPoints(rect)
+        # box=np.int0(box)
+        # cv2.drawContours(displayFrame, [box], 0, (255,0,0),3)
+
+        # #right arm
+        # if(len(contours)>3):
+        #     rect=cv2.minAreaRect(contours[3])
+        #     box=cv2.boxPoints(rect)
+        #     box=np.int0(box)
+        #     cv2.drawContours(displayFrame, [box], 0, (0,0,255),3)
+
+        # #draw contours
+        # cv2.drawContours(displayFrame,contours,-1,(0,255,0),3)
+
+        # displayFrame
+        # displayFrame=copy.deepcopy(noiseRemovedImage)
