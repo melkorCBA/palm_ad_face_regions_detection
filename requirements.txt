@@ -6,7 +6,7 @@ jsonpickle==1.4.1
 kiwisolver==1.2.0
 matplotlib==3.2.1
 numpy==1.18.5
-opencv-contrib-python==4.2.0.34
+opencv-contrib-python==4.8.1.78
 opencv-python==4.2.0.34
 pycodestyle==2.6.0
 pyparsing==2.4.7
